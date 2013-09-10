@@ -43,4 +43,5 @@ node['rbenv']['gems'].each_pair do |rubie, gems|
       end
     end
   end
+  rbenv_rehash "Rehashing rbenv after system gem install"
 end
